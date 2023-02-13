@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Higher Card",
+      "live": "https://project1-virid-nine.vercel.app/",
+      "github": "https://github.com/SWIRTH9092/highercard",
+      "description": "blah, blah, blah",
+      "image": "https://i.imgur.com/WXOXQrX.jpg"
+    },
+    {
+      "name": "Sue's Gluten Free Bakery",
+      "live": "https://bakery-0v6z.onrender.com",
+      "github": "https://github.com/SWIRTH9092/bakery",
+      "description": "bakery, bakery, bakery",
+      "image": "https://i.imgur.com/AB09qyf.png"
+    }
+  ]
