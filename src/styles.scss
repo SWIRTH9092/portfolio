@@ -1,7 +1,29 @@
 .square {
-    border: 5px solid red;
-    transform: rotate(45deg);
-    width: 10rem;
-    height: 10rem;
-    margin: 10rem auto;
+
+        border: 5px solid green;
+        width: 18rem;
+        height: 18rem;
+        margin: 6rem auto;
+        background-color: green;
+
+
+    &:before {
+        content: "";
+        width: 18rem;
+        height: 18rem;
+        position: absolute;
+        border: 5px solid red;
+        transform: rotate(45deg);
+        background-color: red;
+    }
+
+    &:after {
+        content: "";
+        // content: url(image.jpg);
+        width: 18rem;
+        height: 18rem;
+        position: absolute;
+        border:5px solid blue;
+        border-radius: 50%;
+    }
 }

@@ -9,7 +9,9 @@ import React from "react";
 import { NavLink } from "react-router-dom" 
 
 function Index (props) {
-    return (<h1>Index Page</h1>)
+    return (<div>      
+        <div class="square"></div>
+        </div>)
 }
 //----------------------
 //  Export Index Page
