@@ -11,7 +11,7 @@
     },
     { 
         "name": "About-Contact",
-        "link": "/about-contact",
+        "link": "aboutcontact",
         "target": ""
     },
     { 
