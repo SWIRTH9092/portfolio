@@ -1,16 +1,8 @@
-
-// color Palette
-
-.colorCheck {
-    color: #381D2A;
-    color: #3E6990;    
-    color: #AABD8C;
-    color: #eceadc;
-    color: #F39B6D;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }  
 
 :root {
@@ -24,9 +16,36 @@
     --textfont: 'Source Sans Pro', sans-serif;
   }
 
+.headercontainer {
+    padding: 6px;
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.navbar {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color2);;
+    &:hover {
+    color: var(--color3);; 
+    }  
+}
+
+.mainheader {
+    margin: 2rem 0 3rem 0;
+}
+
 .background {
     background-color: var(--color6);
 }
+
 .square {
 
         border: 5px solid var(--color5);

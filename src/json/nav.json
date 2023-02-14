@@ -1,14 +1,32 @@
 [
     { 
         "name": "Home",
-        "link": "/index"
+        "link": "/",
+        "target": ""
     },
     { 
         "name": "Projects-Skills",
-        "link": "/project-skills"
+        "link": "/project-skills",
+        "target": ""
     },
     { 
         "name": "About-Contact",
-        "link": "/about-contact"
+        "link": "/about-contact",
+        "target": ""
+    },
+    { 
+        "name": "Resume",
+        "link": "",
+        "target": "target='blank'"
+    },
+    { 
+        "name": "Github",
+        "link": "https://github.com/SWIRTH9092",
+        "target": "target='blank'"
+    },
+    { 
+        "name": "LinkedIN",
+        "link": "https://www.linkedin.com/in/suewirth/",
+        "target": "target='blank'"
     }
 ]
