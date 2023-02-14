@@ -131,3 +131,19 @@
     color: var(--color1); 
 }
 
+.skillscontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, max-content));
+    grid-Gap: 16px;
+    justify-content: center;
+}
+
+.skillslist {
+    border: 5px solid var(--color5);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.skillsstyle{
+    margin: 0;
+}
