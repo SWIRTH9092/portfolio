@@ -9,8 +9,8 @@ import React from "react";
 import { NavLink } from "react-router-dom" 
 
 function Index (props) {
-    return (<div class="background">      
-        <div class="square"></div>
+    return (<div className="background">      
+        <div className="square"></div>
         </div>)
 }
 //----------------------
