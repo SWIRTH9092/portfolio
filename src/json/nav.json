@@ -1,0 +1,14 @@
+[
+    { 
+        "name": "Home",
+        "link": "/index"
+    },
+    { 
+        "name": "Projects-Skills",
+        "link": "/project-skills"
+    },
+    { 
+        "name": "About-Contact",
+        "link": "/about-contact"
+    }
+]
