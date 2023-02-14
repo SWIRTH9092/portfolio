@@ -1,10 +1,40 @@
+
+// color Palette
+
+.colorCheck {
+    color: #381D2A;
+    color: #3E6990;    
+    color: #AABD8C;
+    color: #eceadc;
+    color: #F39B6D;
+}
+
+* {
+    margin: 0;
+}  
+
+:root {
+    --color1: #2D7DD2;
+    --color2: #97CC04;
+    --color3: #EEB902;
+    --color4: #F45D01;
+    --color5: #474647;
+    --color6: lightgrey;
+    --titlefont: 'Bebas Neue', cursive;
+    --textfont: 'Source Sans Pro', sans-serif;
+  }
+
+.background {
+    background-color: var(--color6);
+}
 .square {
 
-        border: 5px solid green;
-        width: 18rem;
-        height: 18rem;
+        border: 5px solid var(--color5);
+        width: 19rem;
+        height: 19rem;
         margin: 6rem auto;
-        background-color: green;
+        background-color: var(--color3);
+        transition: background-color 2s ease-out;
 
 
     &:before {
@@ -12,18 +42,22 @@
         width: 18rem;
         height: 18rem;
         position: absolute;
-        border: 5px solid red;
+        border: 5px solid var(--color5);
         transform: rotate(45deg);
-        background-color: red;
+        background-color: var(--color2);
+        transition: background-color 3s ease-out;
     }
 
     &:after {
+        
         content: "";
-        // content: url(image.jpg);
+        background-image: url(https://i.imgur.com/pqrRX2A.png);
+        border: 5px solid var(--color5);
+        background-size: 18rem;
         width: 18rem;
         height: 18rem;
         position: absolute;
-        border:5px solid blue;
+        border: 5px solid var(--color5);
         border-radius: 50%;
     }
 }
