@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 
 export default function Projects() {
     return(
-    <div>
+    <div className="projectcontainer">
         {projects.map((project) =>  (
-                <div key={project.name}>
+                <div className="projectcard" key={project.name}>
                     <h3>{project.name} </h3>
-                    <img src={project.image}/>
-                    <p>{project.description}</p>
-                    <div>
-                        <Link href={project.github} target="_blank">Github</Link>
-                        <Link href={project.live} target="_blank">Live Site</Link>
+                    <img className="projectimage" src={project.image}/>
+                    <p className="projectdescription">{project.description}</p>
+                    <div className="projectlinkcontainer">
+                        <Link className="projectlink" href={project.github} target="_blank">Github</Link>
+                        <Link className="projectlink"href={project.live} target="_blank">Live Site</Link>
                     </div>
                 </div>
             ))
