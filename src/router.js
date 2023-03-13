@@ -7,7 +7,7 @@ import {
     Route,
   }  from "react-router-dom"
 import App from "./App"
-import Index from "./pages/Index.js"
+import Index from "./pages/old-Index.js"
 import ProjectsSkills from "./pages/ProjectsSkills.js"
 import ContactAbout from "./pages/ContactAbout.js"
   
