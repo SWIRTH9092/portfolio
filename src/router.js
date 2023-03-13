@@ -9,6 +9,7 @@ import {
 import App from "./App"
 import Index from "./pages/Index"
 import ProjectsSkills from "./pages/ProjectsSkills"
+import ContactAbout from "./pages/ContactAbout"
   
   //---------------------------------------
   //   Router Paths
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<App />}>
           <Route path="" element={<Index />}  />
           <Route path="projectsskills" element={<ProjectsSkills />}  />
+          <Route path="contact-about" element={<ContactAbout />}  />
       </Route>)
 )
   

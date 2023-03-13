@@ -4,23 +4,26 @@
     margin: 0 auto;
     padding: 0 auto;
 }  
-
-:root {
-    --color1: #2D7DD2;
-    --color2: #97CC04;
-    --color3: #EEB902;
-    --color4: #F45D01;
-    --color5: #474647;
-    --color6: lightgrey;
+  :root {
+    --color1: #e3f2fd;
+    --color2: #bbdefb;
+    --color3: #90caf9;
+    --color4: #64b5f6;
+    --color5: #42a5f5;
+    --color6: #2196f3;
+    --color7: #1e88e5;
+    --color8: #1976d2;
+    --color9: #1565c0;
+    --color10: #0d47a1;
     --titlefont: 'Bebas Neue', cursive;
     --textfont: 'Source Sans Pro', sans-serif;
   }
 
-.headercontainer {
+.headercontainer, .footercontainer {
     padding: 6px;
     text-align: center;
-    background-color: var(--color1);
-    color: var(--color2);
+    background-color: var(--color10);
+    color: var(--color1);
 }
 
 .navcontainer {
@@ -43,16 +46,16 @@
 }
 
 .background {
-    background-color: var(--color6);
+    background-color: var(--color1);
 }
 
 .square {
 
-        border: 5px solid var(--color5);
+        border: 5px solid var(--color10);
         width: 19rem;
         height: 19rem;
         margin: 6rem auto;
-        background-color: var(--color3);
+        background-color: var(--color8);
         transition: background-color 2s ease-out;
 
 
@@ -61,17 +64,17 @@
         width: 18rem;
         height: 18rem;
         position: absolute;
-        border: 5px solid var(--color5);
+        border: 5px solid var(--color10);
         transform: rotate(45deg);
-        background-color: var(--color2);
+        background-color: var(--color8);
         transition: background-color 3s ease-out;
     }
 
     &:after {
         
         content: "";
-        background-image: url(https://i.imgur.com/pqrRX2A.png);
-        border: 5px solid var(--color5);
+        background-image: url(https://i.imgur.com/47btam2.png);
+        border: 5px solid var(--color10);
         background-size: 18rem;
         width: 18rem;
         height: 18rem;
@@ -80,29 +83,42 @@
     }
 }
 
-.projectcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10%;
-    justify-content: space-around;
-    background-color: var(--color2);  
+.tagline {
+    text-align: center;
+    color: var(--color10); 
 }
 
-.projectcard {
-    width: 30%;
-    min-width: 290px;
-    text-align: center;
-    margin: 10px;
-    border: 3px solid var(--color3);
-    border-radius: 20px;
+.projectsection {
     background-color: var(--color1);
+    text-align: center;
+    color: var(--color10);
+}
+
+
+.projectcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, max-content));
+    grid-Gap: 16px;
+    justify-content: center;
+    background: var(--color1); 
+}
+.projectcard {
+    width: 300px;
+    height: 32rem;
+    text-align: center;
+    font-weight: 900;
+    margin: 10px;
+    border: 3px solid var(--color10);
+    border-radius: 20px;
+    background-color: var(--color6);
     padding: 10px;
-    color: var(--color2);
+    color: var(--color10);
 }
 
 .projectimage {
     width: 250px;
     border-radius: 40px;
+    border: 3px solid var(--color10);
 }
 
 .projectdescription {
@@ -124,26 +140,109 @@
     font-size: 1.1em;
     border-radius: 20px;
     &:hover {
-        background-color: var(--color5);
+        background-color: var(--color10);
         color: var(--color3);
     }
     background-color: var(--color2);
-    color: var(--color1); 
+    border: 3px solid var(--color10);
+    color: var(--color10); 
+}
+.skillssection {
+    background-color: var(--color8);
+    text-align: center;
+    color: var(--color1);
 }
 
 .skillscontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, max-content));
     grid-Gap: 16px;
     justify-content: center;
+    background: var(--color8);
 }
-
+.skillscard {
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    margin: 2px;
+    border: 3px solid var(--color10);
+    border-radius: 20px;
+    background-color: var(--color2);
+    padding: 10px;
+    color: var(--color10);
+}
 .skillslist {
-    border: 5px solid var(--color5);
-    border-radius: 5px;
     padding: 5px;
+    width: 15rem;
+    border-radius: 20px;
+    background-color: var(--color1);
+    padding: 10px;
+    color: var(--color10);  
 }
 
 .skillsstyle{
     margin: 0;
+    background: var(--color1);
+}
+
+.contactmecontainer {
+    background-color: var(--color1);
+    text-align: center;
+    color: var(--color10);
+}
+
+.contactlink {
+    width: 75px;
+    padding: 0 20px 0 20px;
+}
+.aboutmesection {
+    background-color: var(--color8);
+    text-align: center;
+    color: var(--color1);
+}
+
+.aboutmeimage {
+    max-width: 300px;
+    border: 6px solid var(--color10);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.brandstatementcontainer {
+    background-color: var(--color8);
+    text-align: center;
+    color: var(--color1)
+}
+
+.brandstatement {
+    font-size: 1.5rem;
+    margin: 0 30% 0 30%;
+    text-indent: 3rem;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .square {
+        width: 17rem;
+        height: 17rem;
+
+        &:before {
+            width: 16rem;
+            height: 16rem;
+        }
+
+        &:after {
+            background-size: 16rem;
+            width: 16rem;
+            height: 16rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .brandstatement {
+        margin: 0 5% 0 5%; 
+    }
 }

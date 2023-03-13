@@ -1,5 +1,5 @@
 function SkillsList(props){
 
-    return props.data.map((skill) => <p className="skillsstyle">{skill}</p>)
+    return props.data.map((skill) => <li className="skillsstyle">{skill}</li>)
 }
 export default SkillsList;

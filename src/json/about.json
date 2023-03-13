@@ -2,6 +2,25 @@
     "name": "Sue Wirth",
     "email": "swirth9092@gmail.com",
     "image": "https://i.imgur.com/CWaMHQY.jpg",
+    "imagehalfbody": "https://i.imgur.com/B0uMosD.jpg",
     "bio": "Sue Wirth graduated from General Assembly in 2023.  She is a life long learner who enjoys learning new technology.",
-    "github": "https://github.com/SWIRTH9092"
+    "github": "https://github.com/SWIRTH9092",
+    "tagline": "A life long learner who loves to code!",
+    "githubname": "Github",
+    "githublink": "https://github.com/SWIRTH9092",
+    "githubtarget": "target='blank'",
+    "Linkedinname": "LinkedIN",
+    "linkedinlink": "https://www.linkedin.com/in/suewirth/",
+    "linkedintarget": "target='blank'",
+    "emailname": "Send Email",
+    "emaillink": "mailto:swirth9092@gmail.com?subject=Contact from Sue's Portfolio Website",
+    "emailtarget": "target='blank'",
+    "brandStatements": [
+        "I  design responsive scalable web-based and remote servers apps using JavaScript, Express, Vue3, React, MongoDB, Postgres and Node.js following MVC organization that are efficient, scalable to provide for a positive user-end experience.", 
+        "I  have 15 years of designing, coding, and debugging experience with the following technologies: JavaScript, SQL, Visual Basic, Cobol, Microsoft SQL Server, Access Database, Db2, and VSAM files. I have coding in my blood.  When I was not employed in the industry, I designed and coded Microsoft Access Databases using the Visual basic for volunteer organizations.",
+        "I  enjoy figuring out complex problems and problem-solving skills by looking at the input and output and figuring out the one piece at a time to the resolution.",
+        "In my free time, I love to learn, meditate, and cook.  I am a life-long learner."
+    ]
+
+
 }

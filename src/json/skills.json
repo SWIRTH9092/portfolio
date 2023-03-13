@@ -5,15 +5,16 @@
       },
       {
           "topic": "Data Formats",
-          "skills": ["Objects", "Arrays", "JSON", "MongoDB", "Postgres", "Microsoft Access", "Db2", "VSAM"]
+          "skills": ["Sanity.io Data Lake", "MongoDB", "Postgres", "Objects", "Arrays", "JSON", "Microsoft Access", "Db2", "VSAM"]
       },
       {
           "topic": "Content Design",
-          "skills": ["Markdown", "HTML", "HTML5", "CSS", "CSS Responsive Design", "Full Crud Applications", "S.O.L.I.D. Principles", "Microsoft Visio"]
+          "skills": ["Markdown", "HTML", "HTML5", "CSS", "CSS Responsive Design", "Full Crud Applications", "S.O.L.I.D. Principles"]
       },
       {
           "topic": "Frameworks",
-          "skills": ["React", "Express", "EJS (Embedded Javascript", "AJAX", "MVC (Model-View-Controller)", "Ruby on Rails"]
+          "skills": ["React", "Express", "Vue3", "EJS (Embedded Javascript", "AJAX", "MVC (Model-View-Controller)"]
+
       },
       {
           "topic": "Toolbox",

@@ -6,14 +6,24 @@
 //  import dependencies
 //----------------------
 import React from "react";
-import { NavLink } from "react-router-dom" 
+import Tagline from "../components/Tag"
+
 
 function Index (props) {
-    return (<div className="background">      
+    return (
+    
+    <div className="background">  
+        <br></br>
+        <br></br>    
         <div className="square"></div>
-        </div>)
-}
-//----------------------
+        <br></br>
+        <br></br>
+        <Tagline />
+        <br></br>
+        <br></br>
+        <br></br>
+        </div>
+    )}
 //  Export Index Page
 //----------------------
 export default Index;

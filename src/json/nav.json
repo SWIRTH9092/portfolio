@@ -10,8 +10,8 @@
         "target": ""
     },
     { 
-        "name": "About-Contact",
-        "link": "aboutcontact",
+        "name": "Contact-About",
+        "link": "contact-about",
         "target": ""
     },
     { 
@@ -27,6 +27,11 @@
     { 
         "name": "LinkedIN",
         "link": "https://www.linkedin.com/in/suewirth/",
+        "target": "target='blank'"
+    },
+    { 
+        "name": "Send Email",
+        "link": "mailto:swirth9092@gmail.com?subject=Contact from Sue's Portfolio Website",
         "target": "target='blank'"
     }
 ]
